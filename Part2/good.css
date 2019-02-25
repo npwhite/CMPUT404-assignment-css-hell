@@ -6,7 +6,7 @@
 
 body {
      margin: 30pt 10pt 0pt 10pt;
-     background-color: #a85015;
+     background-color: #c15d00;
 }
 
 
@@ -34,6 +34,16 @@ body {
     padding: 20pt;
 
 
+}
+
+.pane-image {
+    width:25%; /* you can use % */
+    height:auto;
+    /*
+    This prevents flex from stretching the image
+    https://stackoverflow.com/questions/37609642/why-does-flexbox-stretch-my-image
+     */
+    align-self: center
 }
 
 .pane-text {
