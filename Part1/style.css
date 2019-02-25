@@ -1,0 +1,96 @@
+/* body { margin:5%; background:#faebd0; text-align:justify}
+P { text-indent: 1em; margin-top: .25em; margin-bottom: .25em; }
+H1,H2,H3,H4,H5,H6 { text-align: center; margin-left: 15%; margin-right: 15%; }
+hr  { width: 50%; text-align: center;}
+.foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
+blockquote {font-size: 97%; font-style: italic; margin-left: 10%; margin-right: 10%;}
+.mynote    {background-color: #DDE; color: #000; padding: .5em; margin-left: 10%; margin-right: 10%; font-family: sans-serif; font-size: 95%;}
+.toc       { margin-left: 10%; margin-bottom: .75em;}
+.toc2      { margin-left: 20%;}
+.indent5   { margin-left: 5%;}
+.indent10  { margin-left: 10%;}
+.indent15  { margin-left: 15%;}
+.indent20  { margin-left: 20%;}
+.indent30  { margin-left: 30%;}
+div.fig    { display:block; margin:0 auto; text-align:center; }
+div.middle { margin-left: 20%; margin-right: 20%; text-align: justify; }
+.figleft   {float: left; margin-left: 0%; margin-right: 1%;}
+.figright  {float: right; margin-right: 0%; margin-left: 1%;}
+.pagenum   {display:inline; font-size: 100%; font-style:normal;
+           margin: 0; padding: 0; position: absolute; right: 1%;
+           text-align: right;}
+.side      { float: left; font-size: 75%; width: 25%; padding-left: 0.8em;
+           border-left: dashed thin; text-align: left;
+           text-indent: 0; font-weight: bold; font-style: italic;
+           font-weight: bold; color: black; background: #eeeeee; border: solid 1px;}
+p.pfirst, p.noindent {text-indent: 0}
+span.dropcap         { float: left; margin: 0 0.1em 0 0; line-height: 1 }
+pre        { font-style: italic; font-size: 90%; margin-left: 10%;} */
+
+body {
+    background-color: #FFF5EE;
+
+}
+
+p {
+    font-size: 15pt;
+    font-style: normal;
+    text-align: center;
+    color: #8B4513;
+    background-color: #FFF0F5;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-family: 'Dancing Script', cursive;
+
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    font-size: 20pt;
+    font-style: normal;
+    color: #8B4513;
+    background-color: #FAF0E6;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 20pt;
+    font-style: normal;
+    color: #8B4513;
+    background-color: #FAF0E6;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+br {
+    color: #8B4513;
+    background-color: #FAF0E6;
+}
+
+img {
+    border-radius: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border: 10px solid #ddd;
+}
+
+img:hover {
+    /* opacity: 0.5; */
+    width: 20%;
+}
+
+/* .fig {
+    width: 20%;
+} */
+
+a {
+    text-align: center;
+    color: #8B4513;
+}

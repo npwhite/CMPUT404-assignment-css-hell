@@ -28,23 +28,23 @@
 
 *** Requirements
 
-    - [ ] Theme paragraphs with CSS
-    - [ ] Theme header tags with CSS
-    - [ ] Theme images and images captions with CSS
-    - [ ] Change the colour scheme to something aesthetically pleasing
-    - [ ] Apply 1 CSS file to 3 gutenberg documents.
-    - [ ] Include all 3 gutenberg documents HTML and assets, with the CSS applied.
-    - [ ] document in your README what modifications you had to make
+    - [X] Theme paragraphs with CSS
+    - [X] Theme header tags with CSS
+    - [/] Theme images and images captions with CSS
+    - [X] Change the colour scheme to something aesthetically pleasing
+    - [X] Apply 1 CSS file to 3 gutenberg documents.
+    - [X] Include all 3 gutenberg documents HTML and assets, with the CSS applied.
+    - [X] document in your README what modifications you had to make
       to the project gutenberg HTML files.
     - [ ] Take 3 screenshots of firefox running all of your pages that
       demonstrates your theme.
 
-** Part II 
+** Part II
 
    You're going to make your own HTML page and you're going to make 2
    CSS themes for it.
 
-   Emulate the 2nd and 3rd design from this comic: 
+   Emulate the 2nd and 3rd design from this comic:
    http://theoatmeal.com/comics/design_hell
 
    But instead make a 1 webpage about each assignment partner (1 page
@@ -116,4 +116,4 @@
    - 1 mark for making the CSS for your promotion pages look as close
      to theoatmeal comic as possible (don't steal his images).
 
-   Marks will be deducted for lack of screenshots and lack of README or wrong file locations. 
+   Marks will be deducted for lack of screenshots and lack of README or wrong file locations.

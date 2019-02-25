@@ -1,0 +1,144 @@
+.flex-container {
+  display: flex;
+  /* justify-content: flex-end */
+
+}
+
+body {
+     margin: 30pt 10pt 0pt 10pt;
+     background-color: #a85015;
+}
+
+
+.banner {
+    padding: 6%;
+    text-align: center;
+    color: white;
+    background-color: #1d6fc1;
+    font-size: 125%
+
+}
+
+
+/* 333 */
+/* Left column content */
+.content {
+    flex:75%
+}
+
+.pane {
+    /* background-color: */
+    display: flex;
+    /* margin: 0px 0px 0px 0px; */
+    background-color: white;
+    padding: 20pt;
+
+
+}
+
+.pane-text {
+    flex:75%;
+    padding-left: 10pt;
+
+
+}
+
+/* Needed to get rid of some padding */
+.pane-text h3 {
+    font-size: 200%;
+    padding: 0;
+    margin: 0px;
+}
+
+.pane-text a {
+    text-decoration: none;
+    font-size: 110%;
+    color: #4682B4;
+    font-weight: bold;
+    /* display: block;
+    text-align:center; */
+}
+
+/* .pane-text a:visited {
+    color: #5745b4;
+
+} */
+
+.pane-text p {
+    font-size: 110%
+}
+
+/* cool */
+.pane:nth-child(even) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    style=margin-left:auto;
+    style="margin-right:0;
+    /* alternating background colors dont work for some reason */
+    /* background-color: #1d6fc1; */
+
+
+}
+
+
+
+/* Top Navigation Bar */
+.topnav {
+    display: flex;
+    background-color: #333;
+}
+
+.topnav a {
+    color: white;
+    padding: 10pt 20pt 10pt 20pt;
+    text-decoration: none;
+    font-size: 150%
+}
+
+/* Right column sidenav bar */
+.sidenav {
+    flex:25%;
+    display: flex;
+    order:1;
+    background-color: #f1f1f1;
+    justify-content: center;
+
+    /* width: 160px; /* Set the width of the sidebar */
+
+}
+
+.sidenav a {
+    /* padding: 6px 8px 6px 16px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: #4682B4;
+    display: block;
+    text-align:center;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #5745b4;
+}
+
+.sidenav p {
+    text-align: center;
+}
+
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    /* margin:  */
+    height: 180px;
+    width: 260px;
+}
+
+
+
+.image-placeholder > h4 {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
